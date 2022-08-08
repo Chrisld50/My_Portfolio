@@ -1,0 +1,108 @@
+:root {
+    
+
+
+}
+
+html {
+    font-size: 63%;
+}
+
+body {
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+header {
+    padding: 15px;
+    background-color: rgba(14, 5, 139, 0.774);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+header h1 p {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+nav a {
+   color: white;
+   text-decoration: solid;
+}
+
+.content{
+    justify-content: center;
+    
+}
+
+.code-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+.body-headers-2 ul li{
+    display: inline-block;
+}
+
+.main-body{
+    position: relative;
+    
+}
+
+footer {
+    padding: 10px;
+    background-color: rgba(14, 5, 139, 0.774);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex; 
+}
+
+ footer .portfolio-footer{
+    border-radius: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+footer  li {
+ display: flex;
+ margin-left: 30px;
+ justify-content: space-between;
+
+}
+
+footer  a {
+    color: white;
+  
+}
+
