@@ -15,94 +15,105 @@ body {
 }
 
 header {
-    padding: 15px;
-    background-color: rgba(14, 5, 139, 0.774);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(139, 5, 5, 0.774);
+    font-family: 'Lucida Sans';
     color: white;
+   
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 40px;
+span {
+    background-image: linear-gradient(gray,rgba(56, 54, 54, 0.815) );
 }
 
-header h1 p {
+ h1 {
     text-align: center;
+    font-size: 30px;   
 }
 
 nav {
-    display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    justify-content: flex-end;
 }
 
-nav ul{
-    list-style-type: none;
+nav ul {
+display: flex;
+justify-content: space-evenly;
 }
 
-nav ul li {
-    display: inline-block;
+nav li {
+    display:inline-block;
     margin-left: 30px;
-
 }
 
 nav a {
    color: white;
    text-decoration: solid;
-}
-
-.content{
-    justify-content: center;
-    
+   text-shadow: 1px 1px 2px black;
 }
 
 .code-content{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    align-items: center;
     margin-left: 1.5rem;
-    margin-right: 1.5rem;
-
 }
 
-.body-headers-2 ul li{
-    display: inline-block;
+.code-content p {
+    align-items: center;
 }
 
-.main-body{
+.images {
+    border-radius: 10%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.body-headers {
     position: relative;
+    right: 10px;
+    text-shadow: 1px 1px 2px rgba(139, 5, 5, 0.774);
+    text-decoration: underline rgba(139, 5, 5, 0.774) ;
     
+}
+
+.project_1 {
+
+}
+
+.my-work img:hover{
+    box-shadow: inset 0px 0px 8px white, 0 0 15px white;
 }
 
 footer {
     padding: 10px;
-    background-color: rgba(14, 5, 139, 0.774);
+    background-color: rgba(139, 5, 5, 0.774);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    display: flex; 
+    text-shadow: 1px 1px 2px black;
 }
 
  footer .portfolio-footer{
     border-radius: 10px;
+    display: flex;
+    justify-content: baseline;
+    
 }
 
 footer ul {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 
 }
 
 footer  li {
- display: flex;
+ display: inline-block;
  margin-left: 30px;
- justify-content: space-between;
-
+ 
 }
 
 footer  a {
     color: white;
-  
+    text-shadow: 1px 1px 2px black;
 }
 

@@ -12,7 +12,7 @@ body {
     min-height: 100%;
     line-height: 1;
     font-family:'Times New Roman', Times, serif;
-    background-color: gray;
+    background-image: linear-gradient(to right,gray,rgba(56, 54, 54, 0.815) );
   }
 
 h1 h2 h3 {
