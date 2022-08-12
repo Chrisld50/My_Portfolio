@@ -1,8 +1,10 @@
 :root {
-    
-
-
+    --sanguin:rgba(139, 5, 5, 0.774);
+    --sick: white;
+    --dark: black;
 }
+
+/* I created a root for the different colors that were presented throughout my css*/
 
 html {
     font-size: 63%;
@@ -15,9 +17,9 @@ body {
 }
 
 header {
-    background-color: rgba(139, 5, 5, 0.774);
+    background-color: var(--sanguin);
     font-family: 'Lucida Sans';
-    color: white;
+    color: var(--sick)
    
 }
 
@@ -35,6 +37,8 @@ nav {
     font-size: 20px;
 }
 
+/* Here is the first of my many flexs to have the layout go into rows and look even. Flex put these and the children elements in flex containers that I could move to my liking.*/
+
 nav ul {
 display: flex;
 justify-content: space-evenly;
@@ -46,9 +50,9 @@ nav li {
 }
 
 nav a {
-   color: white;
+   color: var(--sick);
    text-decoration: solid;
-   text-shadow: 1px 1px 2px black;
+   text-shadow: 1px 1px 2px var(--dark);
 }
 
 .code-content{
@@ -56,40 +60,86 @@ nav a {
     flex-wrap: wrap;
     align-items: center;
     margin-left: 1.5rem;
+    justify-content: space-between;
+}
+
+/* Here I applied box shadow and decoration to make my text change and give it some flair. I applied this to most of my text.*/
+
+.about-me-text{
+    width:68%;
+    text-shadow: 1px 1px 2px var(--sanguin);
+    text-decoration: underline var(--sanguin);
+    
+
 }
 
 .code-content p {
     align-items: center;
+    justify-content: space-between;
 }
 
 .images {
     border-radius: 10%;
-    border: 1px solid black;
+    border: 1px solid var(--dark);
     margin-top: 20px;
 }
 
 .body-headers {
     position: relative;
     right: 10px;
-    text-shadow: 1px 1px 2px rgba(139, 5, 5, 0.774);
-    text-decoration: underline rgba(139, 5, 5, 0.774) ;
+    text-shadow: 1px 1px 2px var(--sanguin);
+    text-decoration: underline var(--sanguin);
     
 }
 
-.project_1 {
-
+h3{
+    text-align: center;
+    text-shadow: 1px 1px 2px var(--sanguin);
+    text-decoration: underline var(--sanguin);
+    
+}
+.pic {
+    float: left;
+    width:25%;
 }
 
+.code-content-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 1.5rem;
+    justify-content: space-between;
+}
+
+.hero{
+    width: 80%;
+    margin-right: 18rem;
+}
+
+.my-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: 1 0 100%;
+    flex-grow: 1;
+}
+
+/* Here is the code i applied for the hover to happen. setting the color of the hover to white makes it look like it is about to be clicked on.*/
+
 .my-work img:hover{
-    box-shadow: inset 0px 0px 8px white, 0 0 15px white;
+    box-shadow: inset 0px 0px 8px var(--sick), 0 0 15px var(--sick);
+}
+
+.hero img:hover{
+    box-shadow: inset 0px 0px 8px var(--sick), 0 0 15px var(--sick);
 }
 
 footer {
     padding: 10px;
-    background-color: rgba(139, 5, 5, 0.774);
+    background-color: var(--sanguin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    text-shadow: 1px 1px 2px black;
+    color: var(--sick);
+    text-shadow: 1px 1px 2px var(--dark);
 }
 
  footer .portfolio-footer{
@@ -113,7 +163,25 @@ footer  li {
 }
 
 footer  a {
-    color: white;
-    text-shadow: 1px 1px 2px black;
+    color: var(--sick);
+    text-shadow: 1px 1px 2px var(--dark);
 }
 
+/* Sadly, I was unable to get the media quiery to work for me. This was the last part I was working on and I ran out of time to fix some of my code to make this work.*/
+
+
+@media screen and (min-width: 768px) {
+    
+ .pic {
+    width: 50%;
+ }
+
+}
+  
+  @media screen and (min-width: 992px) {
+
+    .pic {
+        width: 75%;
+     }
+  }
+   
