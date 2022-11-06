@@ -92,12 +92,19 @@ nav a {
     
 }
 
-h3{
+.hero a{
     text-align: center;
-    text-shadow: 1px 1px 2px var(--sanguin);
-    text-decoration: underline var(--sanguin);
+    color: var(--sick);
+    text-shadow: 1px 1px 2px var(--dark);
     
 }
+
+.pic a{
+    text-align:center;
+    color: var(--sick);
+    text-shadow: 1px 1px 2px var(--dark)
+}
+
 .pic {
     float: left;
     width:25%;
@@ -167,7 +174,7 @@ footer  a {
     text-shadow: 1px 1px 2px var(--dark);
 }
 
-/* Sadly, I was unable to get the media quiery to work for me. This was the last part I was working on and I ran out of time to fix some of my code to make this work.*/
+/* Sadly, I was unable to get the media query to work for me. This was the last part I was working on and I ran out of time to fix some of my code to make this work.*/
 
 
 @media screen and (min-width: 768px) {
