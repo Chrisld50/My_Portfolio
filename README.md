@@ -1,12 +1,24 @@
 # My_Portfolio
 
+# User Story 
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
 # Description
-My motivation for this project was to create my first portfolio! I wanted to show my abilities with CSS and HTML to create a responsive and tasteful portfolio site. Throughout this project I was able to learn a lot about how flex works when it comes to applying them to elements and make them shift to how I want them to be. The most difficult task for me is when I was shifting the headers away from the top of everything and getting them moved to the left side of my portfolio picturte and my work. 
+* I created my portfolio utilizing HTML and CSS.
+* When an employer logs onto my portfolio, they will be given a page that shows color, a profile picture and links to different aspects about me.
+* If an employer were to click on a link at the top they will be taken to the section of my portfolio that the link directs them to.
+* If an employer were to click on a link at the bottom of my portfolio they will be given the ability to contact me by phone number, my linkedin or by my email. 
+* The page also displays my projects that I have worked on and created, as well as my resume. 
 
 # Technologies 
-HTML
-CSS
+* HTML
+* CSS
 
 # Screenshot 
 
 ![Alt text](/assets/Image/Portfolio%20Image.png "Project Example")
+
+# Link 
+https://chrisld50.github.io/My_Portfolio/
